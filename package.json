@@ -1,0 +1,23 @@
+{
+  "name": "get-screenshot",
+  "version": "1.0.0",
+  "description": "スクリーンショット取得自動化",
+  "main": "index.js",
+  "scripts": {
+    "start": "rm -rf dist/ && mkdir dist/ && node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tmtkg/get-screenshot.git"
+  },
+  "author": "tom",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tmtkg/get-screenshot/issues"
+  },
+  "homepage": "https://github.com/tmtkg/get-screenshot#readme",
+  "devDependencies": {
+    "proxy-chain": "^2.2.0",
+    "puppeteer": "^19.3.0"
+  }
+}
