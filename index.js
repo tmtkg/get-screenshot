@@ -17,11 +17,9 @@ const urlList = require('./urlList.json');
 	});
 
 	const page = await browser.newPage();
-
-	await page.setViewport(
-		{
-			width: 1080, height: 768
-		});
+	
+	await page.setViewport({width: 1080, height: 768});
+	
 	for (key in urlList) {
 		let saveFileName = urlList[key].url.replace(process.env.URL_PREFIX, '');
 
@@ -30,6 +28,7 @@ const urlList = require('./urlList.json');
 
 		await page.screenshot({path: 'dist/' + saveFileName.replace('/', '') + '.png', fullPage: true});
 	}
+	
 	await browser.close();
 	console.log('✨ DONE!');
 })();
