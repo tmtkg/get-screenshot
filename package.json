@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/tmtkg/get-screenshot#readme",
   "devDependencies": {
+    "dotenv": "^16.0.3",
     "proxy-chain": "^2.2.0",
     "puppeteer": "^19.3.0"
   }

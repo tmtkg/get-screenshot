@@ -5,6 +5,13 @@
 - Node.js v18.12.1
 - npm
 
+## 構成
+
+- index.js
+	- 実行ファイル
+- urlList.json
+	- スクリーンショット取得するURL一覧
+
 ## GET STARTED
 
 ```
