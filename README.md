@@ -11,6 +11,8 @@
 	- 実行ファイル
 - urlList.json
 	- スクリーンショット取得するURL一覧
+- .env
+	- 定数一覧
 
 ## GET STARTED
 
