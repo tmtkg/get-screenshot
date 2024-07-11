@@ -16,9 +16,9 @@
     "url": "https://github.com/tmtkg/get-screenshot/issues"
   },
   "homepage": "https://github.com/tmtkg/get-screenshot#readme",
-  "devDependencies": {
-    "dotenv": "^16.0.3",
-    "proxy-chain": "^2.2.0",
-    "puppeteer": "^19.3.0"
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "proxy-chain": "^2.5.1",
+    "puppeteer": "^22.12.1"
   }
 }
